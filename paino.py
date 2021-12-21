@@ -10,7 +10,7 @@ import win32api, win32con
 #tile 3 position = X: 732 Y:  350 RGB: (  0,  34,  64)
 #tile 4 position = X: 835 Y:  350 RGB: (  0,  34,  64)
 
-time.sleep(5)
+time.sleep(2)
 
 def click(x,y):
     win32api.SetCursorPos((x,y))
